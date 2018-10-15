@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Insert an embedded component for VS Code Extensions when linking to an extension in markdown files",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lannonbr/gatsby-remark-vscode-embed.git"
@@ -18,8 +16,6 @@
   },
   "homepage": "https://github.com/lannonbr/gatsby-remark-vscode-embed#readme",
   "dependencies": {
-    "node-fetch": "^2.2.0",
-    "remark": "^9.0.0",
     "unist-util-visit": "^1.4.0",
     "vsmarketplace-api": "^1.0.0"
   }
