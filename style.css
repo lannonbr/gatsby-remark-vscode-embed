@@ -1,0 +1,46 @@
+.vsmarketplace-block {
+  border: 2px solid #eee;
+  padding: 5px;
+  margin: 20px 0;
+  background-color: #222;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.vsmarketplace-block .logo {
+  width: 100px;
+  height: 100px;
+  padding: 20px 10px;
+}
+
+.vsmarketplace-block .star {
+  width: 14px;
+  height: 14px;
+}
+
+.vsmarketplace-block header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .vsmarketplace-block header {
+    display: block;
+  }
+}
+
+.vsmarketplace-block .reviewSection {
+  margin-right: 10px;
+}
+
+.vsmarketplace-block header b {
+  font-size: 24px;
+}
+
+.vsmarketplace-block .subdetails span:nth-child(1) {
+  margin-right: 20px;
+}

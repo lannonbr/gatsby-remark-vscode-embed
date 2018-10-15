@@ -71,24 +71,22 @@ visit(tree, "link", function(node) {
 
       // HTML which will be passed back to the AST so it can be rendered in Gatsby
       const html = `
-        <a href="${node.url}">
-          <img src="${iconUrl}" />
-          <div>
-            <div>
+        <a class="vsmarketplace-block" href="${node.url}">
+          <img class="logo" src="${iconUrl}" />
+          <section>
+            <header>
               <b>${displayName}</b>
-              <div>
+              <div class="reviewSection">
                 ${stars}
                 <span>(${ratingCount})</span>
               </div>
-            </div>
-            <div>
+            </header>
+            <div class="subdetails">
               <span>${publisher}</span>
               <span>${totalDownloads} installs</span>
             </div>
-            <div>
-              <p>${shortDescription}</p>
-            </div>
-          </div>
+            <p>${shortDescription}</p>
+          </section>
         </a>
       `;
 
