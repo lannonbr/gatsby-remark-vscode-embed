@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/lannonbr/gatsby-remark-vscode-embed#readme",
   "dependencies": {
-    "unist-util-visit": "^1.4.0",
+    "async-unist-util-visit": "^1.0.0",
     "vsmarketplace-api": "^1.0.0"
   }
 }

@@ -1,9 +1,9 @@
-.vsmarketplace-block {
+.vsmarketplace-block a {
   border: 2px solid #eee;
   padding: 5px;
   margin: 20px 0;
   background-color: #222;
-  max-width: 800px;
+  width: 100%;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -19,6 +19,10 @@
 .vsmarketplace-block .star {
   width: 14px;
   height: 14px;
+}
+
+.vsmarketplace-block section {
+  width: 100%;
 }
 
 .vsmarketplace-block header {
