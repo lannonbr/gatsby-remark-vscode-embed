@@ -1,15 +1,15 @@
 {
   "name": "gatsby-remark-vscode-embed",
   "version": "1.0.0",
-  "description": "Insert an embedded component for VS Code Extensions when linking to an extension in markdown files",
+  "description":
+    "A Gatsby-Transformer-Remark plugin to enhance VS Marketplace links",
   "main": "index.js",
-  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lannonbr/gatsby-remark-vscode-embed.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["gatsby", "gatsby-plugin", "remark", "vscode", "markdown"],
+  "author": "Benjamin Lannon <benjamin@lannonbr.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lannonbr/gatsby-remark-vscode-embed/issues"

@@ -12,7 +12,6 @@ module.exports = async ({ markdownAST }) => {
 
       // Query VS Marketplace API
       let data = await query(extensionId)
-      console.log(data.results[0].extensions.length)
 
       if (data.results[0].extensions.length === 0) {
         return
@@ -25,15 +24,7 @@ module.exports = async ({ markdownAST }) => {
         )
       })[0]
 
-      // const extension = data.results[0].extensions[0]
-      let displayName
-
-      try {
-        displayName = extension.displayName
-      } catch (err) {
-        console.log(err)
-        console.log(extension)
-      }
+      let displayName = extension.displayName
 
       const publisher = extension.publisher.displayName
 
