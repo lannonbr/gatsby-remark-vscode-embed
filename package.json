@@ -1,14 +1,19 @@
 {
   "name": "gatsby-remark-vscode-embed",
-  "version": "1.0.0",
-  "description":
-    "A Gatsby-Transformer-Remark plugin to enhance VS Marketplace links",
+  "version": "1.0.1",
+  "description": "A Gatsby-Transformer-Remark plugin to enhance VS Marketplace links",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lannonbr/gatsby-remark-vscode-embed.git"
   },
-  "keywords": ["gatsby", "gatsby-plugin", "remark", "vscode", "markdown"],
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "remark",
+    "vscode",
+    "markdown"
+  ],
   "author": "Benjamin Lannon <benjamin@lannonbr.com>",
   "license": "MIT",
   "bugs": {

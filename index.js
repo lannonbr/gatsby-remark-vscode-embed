@@ -63,16 +63,16 @@ module.exports = async ({ markdownAST }) => {
       let stars = ''
 
       for (let i = 0; i < filledStars; i++) {
-        stars += `<img class="star" src="https://cdn.vsassets.io/v/M140_20181002.7/_content/FullStar.svg" />\n`
+        stars += `<img alt="filled star" class="star" src="https://cdn.vsassets.io/v/M140_20181002.7/_content/FullStar.svg" />\n`
       }
 
       for (let i = 0; i < notFilledStars; i++) {
-        stars += `<img class="star" src="https://cdn.vsassets.io/v/M140_20181002.7/_content/EmptyStarDark.svg" />\n`
+        stars += `<img alt="empty star" class="star" src="https://cdn.vsassets.io/v/M140_20181002.7/_content/EmptyStarDark.svg" />\n`
       }
 
       let logosrc = iconUrl.length !== 0 ? `src="${iconUrl}"` : ''
 
-      let logo = `<img class="logo" ${logosrc} />`
+      let logo = `<img alt="extension logo" class="logo" ${logosrc} />`
 
       // HTML which will be passed back to the AST so it can be rendered in Gatsby
       const html = `
