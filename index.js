@@ -70,7 +70,7 @@ module.exports = async ({ markdownAST }) => {
         stars += `<img alt="empty star" class="star" src="https://cdn.vsassets.io/v/M140_20181002.7/_content/EmptyStarDark.svg" />\n`
       }
 
-      let logosrc = iconUrl.length !== 0 ? `src="${iconUrl}"` : ''
+      let logosrc = iconUrl.length !== 0 ? `src="${iconUrl}"` : 'src=""'
 
       let logo = `<img alt="extension logo" class="logo" ${logosrc} />`
 
