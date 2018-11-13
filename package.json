@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-vscode-embed",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Gatsby-Transformer-Remark plugin to enhance VS Marketplace links",
   "main": "index.js",
   "repository": {
@@ -22,6 +22,6 @@
   "homepage": "https://github.com/lannonbr/gatsby-remark-vscode-embed#readme",
   "dependencies": {
     "async-unist-util-visit": "^1.0.0",
-    "vsmarketplace-api": "^1.0.0"
+    "vsmarketplace-api": "^1.0.2"
   }
 }
