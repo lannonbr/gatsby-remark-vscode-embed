@@ -4,7 +4,7 @@ A Gatsby remark plugin to insert an embedded component for VS Code Extensions wh
 
 Here's an example outputted component with the GitLens extension. Do note it still is a clickable component that will link to the marketplace for said extension.
 
-![Rendered component for GitLens](./gitlensRender.png)
+![Rendered component for GitLens](https://raw.githubusercontent.com/lannonbr/gatsby-remark-vscode-embed/master/gitlensRender.png)
 
 # Usage
 
